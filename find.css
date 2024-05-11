@@ -1,0 +1,88 @@
+@import "roboto.css";
+.find-search-bar-form {
+    padding: 0 25px;
+}
+
+.find-search-bar-form div {
+    width: 100%;
+}
+.find-search-bar {
+    margin-top: 20px;
+    background-color: var(--darkpurple);
+    border-radius: 25px;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    transition: background-color 0.3s ease-in-out;
+}
+.find-search-bar:focus {
+    background-color: #594374;
+}
+.find-search-bar-form span{
+    position: absolute;
+    font: 1rem;
+    bottom: 0.46rem;
+    right: 40px;
+}
+.best-movie__img-container {
+    padding: 0 20px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+.best-movie__img {
+    width: 27.5rem;
+    height: 15.3rem;
+    border-radius: 25px;
+}
+.best-movie__img-container span {
+    position: absolute;
+    background-color: var(--purple);
+    border-radius: 50%;
+    left: calc(50% + 7.5rem);
+    font-size: 5rem;
+    bottom: 3.5rem;
+}
+.best-movie__title {
+    padding-left: 30px;
+}
+.best   -movie__promotion-title {
+    font-size: 14px;
+}
+.best-movie__movie-name {
+    color: var(--purple);
+    font-size: 40px;
+    font-weight: 600;
+}
+.movie-recommendation {
+    margin: 25px 0;
+    padding: 0 25px;
+}
+.movie-recommendation__imgs {
+    margin-top: 15px;
+    list-style: none;
+    display: flex;
+    overflow-x: auto;
+    
+}
+.movie-recommendation__imgs li {
+    margin-left: 5px;
+}
+.movie-recommendation__imgs img {
+    width: 150px;
+    border-radius: 15px;
+}
+.movie-recommendation__imgs::-webkit-scrollbar {
+    width: 10px;
+  }
+  .movie-recommendation__imgs::-webkit-scrollbar-thumb {
+    background-color: #2f3542;
+    border-radius: 10px;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+  }
+  .movie-recommendation__imgs::-webkit-scrollbar-track {
+    background-color: grey;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px white;
+  }
